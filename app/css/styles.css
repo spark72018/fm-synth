@@ -1,0 +1,130 @@
+/* line 1, app/sass/styles.sass */
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #00171F;
+  font-family: 'Courgette', cursive; }
+
+/* line 6, app/sass/styles.sass */
+h1 {
+  display: inline;
+  margin: 0;
+  color: #eb8cff;
+  text-shadow: 1px 1px 5px #7e7a7f; }
+
+/* line 13, app/sass/styles.sass */
+#optionsContainer {
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #77aaff;
+  box-shadow: inset 0px -5px #77aaff, 
+  inset 5px 0px #77aaff,
+  inset 0px 5px #77aaff,
+  inset -5px 0px #77aaff;
+  top: 1em;
+  display: flex;
+  justify-content: center;
+  background: #00171F;
+  color: #00A8E8;
+  width: 100%; }
+
+/* line 23, app/sass/styles.sass */
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #003459;
+  height: 30em;
+  width: 38em;
+  box-shadow: 1px 2px 15px 5px #7e7a7f; }
+
+/* line 33, app/sass/styles.sass */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  margin: 5px 25px 5px 25px;
+  height: 15em; }
+
+/* line 41, app/sass/styles.sass */
+input {
+  position: relative;
+  left: 2em;
+  height: 5em;
+  transform-origin: 75px 75px;
+  transform: rotate(-90deg); }
+
+/* line 47, app/sass/styles.sass */
+select {
+  color: #00A8E8;
+  background: transparent;
+  outline: none; }
+
+/* line 52, app/sass/styles.sass */
+option {
+  background: #00171F;
+  font-family: 'Courgette', cursive; }
+
+/* line 55, app/sass/styles.sass */
+#keycontainer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0.5em;
+  height: 8em;
+  width: 30em; }
+
+/* line 63, app/sass/styles.sass */
+.black {
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  left: 7px;
+  height: 5em;
+  width: 1em;
+  margin: 0 0 0 -1em;
+  z-index: 3;
+  border: 1px solid #000;
+  border-radius: 0px 0px 3px 3px;
+  box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.2) inset, 0 -5px 2px 3px rgba(0, 0, 0, 0.6) inset, 0 2px 4px rgba(0, 0, 0, 0.5);
+  background: #444444; }
+
+/* line 73, app/sass/styles.sass */
+.white {
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 2px 8px 2px #5b5959;
+  background: #FFFFFF;
+  z-index: 1;
+  height: 8em;
+  width: 2em;}
+
+.light {
+  color: #eb8cff;
+}
+
+.letterMap {
+  position: absolute;
+  bottom: 0;
+}
+
+
+/* line 88, app/sass/styles.sass */
+.keyboard {
+  position: relative;
+  display: flex;
+  margin-left: 1px;
+  margin-right: 1px;
+  top: 9px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  background-color: pink;
+  height: 30px;
+  width: 2em; }
+
+
